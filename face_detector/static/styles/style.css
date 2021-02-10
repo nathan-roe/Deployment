@@ -72,15 +72,12 @@ svg {
     border-radius: .3em;
 }
 .bi-envelope{
-    margin-bottom: 5.2em;
-    margin-right: .4em
+    /* margin-bottom: 5.2em;
+    margin-right: .4em */
     
 }
 .bi-lock{
-    z-index: 2;
-    position: absolute;
-    right: 29em;
-    top: 17.2em;
+    margin: 0;
 }
 .popup{
     display: flex;
@@ -98,3 +95,32 @@ svg {
     position: absolute;
     margin-right: 10em;
 }
+.email_area {
+    display: flex;
+    flex-direction: column;
+}
+.email {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+    .email input {
+        height: 5vh;
+        margin-right: 1vw;
+    }
+    .email svg {
+        
+        margin-top: 1vh;
+    }
+.pass {
+    display: flex;
+    margin-top: 1vh;
+    justify-content: space-between;
+}
+    .pass input {
+        height: 5vh;
+        margin-right: 1vw;
+    }
+    .pass svg {
+        margin-top: .5vh;
+    }
